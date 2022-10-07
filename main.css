@@ -1,0 +1,237 @@
+/* universal code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: var(--secondary-txt);
+}
+
+/* root styles */
+:root{
+  /* first section */
+  --dark-background-color:#1F2937;
+  --hero-main-txt: #f9faf8;
+  --secondary-txt: #e5e7eb;
+  --btn-color: #3882f6;
+  --font: 'Roboto';
+}
+
+/* Nav-Bar */
+.nav-bar{
+  padding: 2rem 10rem;
+  background-color: #1f2937;
+  font-family: var(--font);
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title{
+  font-size: 24px;
+  color: #F9FAF8;
+  text-transform: uppercase;
+}
+.nav-link{
+  display: flex;
+  flex-direction: row;
+}
+.links{
+  padding: 1rem 2rem;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+/* hero section */
+.hero{
+  padding: 5rem 10rem;
+  background-color: #1f2937;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.main-text{
+  padding-right: 5rem;
+}
+.main-text h1{
+  font-size: 48px;
+  color: var(--hero-main-txt);
+  text-transform: capitalize;
+  font-family: var(--font);
+  font-weight: 700;
+}
+.main-text p{
+  font-size: 18px;
+  color: var(--secondary-txt);
+  font-family: var(--font);
+}
+.main-img img{
+  height: 20rem;
+  width: 40rem;
+}
+.button{
+  padding: 1rem 0rem;
+}
+.btn{
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: .7rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  color: var(--secondary-txt);
+  font-size: 18px;
+  font-family: var(--font);
+}
+/* info page */
+.info{
+  text-align: center;
+  padding: 2rem 2rem;
+  margin: 2rem 5rem;
+}
+.info-title{
+  font-size: 36px;
+  color: var(--dark-background-color);
+  text-transform: capitalize;
+  letter-spacing: .5rem;
+}
+.post{
+  display: flex;
+  padding: 2rem 2rem;
+}
+.post-link{
+  padding: 2rem 2rem;
+  font-size: 18px;
+}
+.post-link img{
+  border: 3px solid var(--btn-color);
+  border-radius: 1rem;
+  height: 10rem;
+  width: 10rem;
+  cursor: pointer;
+}
+.post-link a{
+  color: black;
+}
+/* Quotes */
+.quote{
+  background-color: #e5e7eb;
+}
+.text{
+  font-family: var(--font);
+  font-size: 36px;
+  color: var(--dark-background-color);
+  font-style: italic;
+  /* font-weight: 100; */
+  padding: 10rem 10rem;
+}
+/* sign up */
+.sign-up{
+  background-color: var(--btn-color);
+  margin: 5rem 10rem;
+  padding: 3rem 10rem;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font);
+}
+.sign-title{
+  color: var(--hero-main-txt);
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.sign-p{
+  color: var(--secondary-txt);
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.sign-btn{
+  font-size: 18px;
+  border: 2px solid var(--hero-main-txt);
+  border-radius: .5rem;
+  background-color: transparent;
+  color: var(--hero-main-txt);
+  height: 2.5rem;
+  width: 10rem; 
+}
+/* footer */
+.end{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dark-background-color);
+  padding: 2rem 0rem;
+  color: var(--hero-main-txt);
+  font-size: 18px;
+}
+.navigation{
+position: relative;
+left: 30rem;
+}
+
+/* Sign-up */
+/* Nav */
+.nav-bars{
+  padding: 1rem 10rem;
+  background-color: var(--dark-background-color);
+  font-family: var(--font);
+}
+/* end of Nav */
+.form{
+  padding: 3rem 3rem;
+  margin: 3rem 0rem;
+  border-radius: 2rem;
+  font-family: var(--font);
+  background-color: var(--dark-background-color);
+  width: 70rem;
+  margin-left: 12.5rem; 
+}
+.texts{
+  text-align: center;
+text-transform: capitalize;
+padding: 1rem 5rem;
+}
+.texts h1{
+  color: var(--hero-main-txt);
+  font-size: 36px;
+}
+.texts p{
+  color: var(--secondary-txt);
+  font-size: 18px;
+}
+.label{
+  font-size: 36px;
+  color: var(--secondary-txt);
+  text-transform: capitalize;
+  letter-spacing: .3rem;
+  display: block;
+}
+.input{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  font-size: 18px;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+}
+.submit{
+  display: block;
+  text-transform: capitalize;
+  color: var(--secondary-txt);
+  font-size: 18px;
+  background-color: var(--btn-color);
+  padding: .5rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
